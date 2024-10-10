@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Travel reservation form</h1>
+        <h2>*denotes mandatory</h2>
+        <label for="name" style="line-height: 25px;">Full name*:</label><br>
+        <input type="text" placeholder="FirstName LastName" id="name"><br>
+        <label for="email" style="line-height: 25px;">Email address*:</label><br>
+        <input type="email" placeholder="EMAIL_ADDRESS" id="email"><br>
+        <label style="line-height: 25px;">Select Tour Package*:</label><br>
+        <select name="cars" style="background-color: rgb(220, 224, 224);">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select><br>
+        <label for="date" style="line-height: 25px;">Arrival date*:</label><br>
+        <input type="text" placeholder="m/d/y" id="date"><br>
+        <label for="number" style="line-height: 25px;">Number of persons*:</label><br>
+        <input type="number" placeholder="UNKNOWN_TYPE" id="number"><br>
+        <label for="check" style="line-height: 25px;">What would you want to avail?*:</label><br>
+        <label for="Boarding" style="line-height: 25px;">Boarding</label>
+        <input type="checkbox" value="Boarding" id="Boarding"><br>
+        <label for="Fooding" style="line-height: 25px;">Fooding</label>
+        <input type="checkbox" value="Fooding" id="Fooding"><br>
+        <label for="Sight_seeing" style="line-height: 25px;">Sight seeing</label>
+        <input type="checkbox" value="Sight_seeing" id="Sight_seeing"><br>
+        <label for="code" style="line-height: 25px;">Discout Coupon code:</label><br>
+        <input type="text" placeholder="UNKNOWN_TYPE" id="code"><br>
+        <label for="tac" style="line-height: 25px;">Terms and conditions*</label><br>
+        <input type="radio" id="agree" name="choose"><label for="agree">I agree</label>
+        <input type="radio" id="disagree" name="choose"><label for="disagree">I disagree</label>
+        <br>
+        <button>Complete reservation</button>
+    </div>
+</body>
+</html>
