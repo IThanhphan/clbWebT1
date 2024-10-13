@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.request {
+    margin: 10px 0;
+}
+
+.request h4 {
+    line-height: 30px;
+}
+
+.title {
+    background-color: rgb(255, 144, 174);
+    margin-bottom: 10px;
+}
+
+.content {
+    background-color: rgb(252, 252, 108);
+    text-align: center;
+}
